@@ -4,7 +4,7 @@ import ProductsGrid from "./ProductsGrid";
 
 const MainContent = () => {
   return (
-    <main className="w-full flex">
+    <main className="w-full flex gap-5">
       <FilterSidebar />
       <ProductsGrid />
     </main>

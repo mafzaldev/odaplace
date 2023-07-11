@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="flex flex-col py-3 px-7">
+    <div className="py-3 px-5">
       <Navbar />
       <CategoriesBar />
       <MainContent />

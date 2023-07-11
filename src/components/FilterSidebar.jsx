@@ -4,7 +4,7 @@ import InputFieldwithIcon from "./InputFieldwithIcon";
 
 const FilterSidebar = () => {
   return (
-    <aside className="border border-gray-500 w-[20%] rounded-lg">
+    <aside className="border border-gray-200 w-[20%] rounded-lg bg-white">
       <div className="flex flex-col items-start gap-4 p-4">
         <p className="font-bold">Filters</p>
         <div className="flex flex-col gap-2">
@@ -26,6 +26,7 @@ const FilterSidebar = () => {
           <p className="font-bold">Min Order</p>
           <input
             type="range"
+            value={30}
             className="h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-[#FB6A00] border border-white"
           />
         </div>
