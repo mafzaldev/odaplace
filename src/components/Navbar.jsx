@@ -8,7 +8,7 @@ import Email from "../assets/email.svg";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between my-2">
+    <div className="flex justify-between my-1">
       <a href="#" className="flex items-center gap-2 ">
         <img src={NavbarLogo} className="rounded-full w-10" />
         <p className="font-bold">Odaplace</p>
