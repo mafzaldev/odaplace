@@ -1,5 +1,5 @@
 import React from "react";
-import FilterSidebar from "./FilterSideBar";
+import FilterSidebar from "./FilterSidebar";
 import ProductsGrid from "./ProductsGrid";
 
 const MainContent = () => {

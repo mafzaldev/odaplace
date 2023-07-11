@@ -1,6 +1,6 @@
+import Navbar from "./components/Navbar";
 import CategoriesBar from "./components/CategoriesBar";
 import MainContent from "./components/MainContent";
-import Navbar from "./components/Navbar";
 
 function App() {
   return (
